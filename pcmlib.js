@@ -12,5 +12,6 @@
  * testメソッドを実行します。
  */
 function test2() {
+	// テスト
 	test();
 }
