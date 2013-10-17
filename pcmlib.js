@@ -13,5 +13,6 @@
  */
 function test2() {
 	// testメソッドを実行
+	// テスト
 	test();
 }
