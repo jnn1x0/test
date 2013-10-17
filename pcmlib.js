@@ -1,15 +1,15 @@
-function test() {
+ï»¿function test() {
 	var pcmApp = new ActiveXObject("Pcm.App");
 	var pcmDoc = pcmApp.GetPcmDoc();
 	var pcmPrj = pcmDoc.GetProject();
 	var pcmLayer = pcmPrj.SearchLayer("hoge")
 	var id = pcmLayer.GetID(4);
-	var pcmLayerDB = pcmLayer.GetDB(4); // DBƒIƒuƒWƒFƒNƒg‚ğæ“¾‚µ‚Ü‚·B
+	var pcmLayerDB = pcmLayer.GetDB(4); // DBã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’å–å¾—ã—ã¾ã™ã€‚
 	var dbTitle = pcmLayerDB.Title;
 }
 
 /*
- * testƒƒ\ƒbƒh‚ğÀs‚µ‚Ü‚·B
+ * testãƒ¡ã‚½ãƒƒãƒ‰ã‚’å®Ÿè¡Œã—ã¾ã™ã€‚
  */
 function test2() {
 	test();
