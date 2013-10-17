@@ -7,3 +7,10 @@ function test() {
 	var pcmLayerDB = pcmLayer.GetDB(4); // DBオブジェクトを取得します。
 	var dbTitle = pcmLayerDB.Title;
 }
+
+/*
+ * testメソッドを実行します。
+ */
+function test2() {
+	test();
+}
