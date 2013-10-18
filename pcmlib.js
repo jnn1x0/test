@@ -21,3 +21,7 @@ function test2() {
 	// テスト6
 	test();
 }
+
+function test11() {
+	return null;
+}
