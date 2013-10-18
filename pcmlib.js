@@ -25,3 +25,7 @@ function test2() {
 function test3() {
 	test2();
 }
+
+function test20() {
+
+}
