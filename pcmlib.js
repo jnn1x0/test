@@ -28,6 +28,12 @@ function test3() {
 
 function test20() {
 
+}
+
 function test11() {
 	return null;
+}
+
+function test21() {
+	
 }
